@@ -58,7 +58,7 @@ function draw() {
         mouse.changeAnimation("mouseLastImage");
     }*/
 
-    /*if(cat.x - mouse.x < (cat.width - mouse.width)/2)
+    if(cat.x - mouse.x < (cat.width - mouse.width)/2)
     { 
         cat.velocityX=0;
         cat.addAnimation("catLastImage", catImg3);
@@ -68,7 +68,7 @@ function draw() {
         mouse.addAnimation("mouseLastImage", mouseImg3);
         mouse.scale=0.15;
         mouse.changeAnimation("mouseLastImage");
-    }*/
+    }
 
     /*if(cat.y - mouse.y < (cat.height - mouse.height)/2)
     { 
